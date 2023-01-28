@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    background-color:#f0f2f5;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 150px;
+}
+strong{
+    color: #1877f2;
+    font-size: 50px;
+    font-weight: 700;
+}
+p{
+    font-size: 25px;
+}
+form{
+    border-radius: 8px;
+    background-color: #ffffff;
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 6px -5px;
+    padding:10px;
+}
+.ok{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 230px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: #c7cacf;
+    outline: none;
+}
+.ok:hover{
+    border-color: #1877f2;
+}
+.info{
+    text-align: center;
+}
+.login{
+    width: 275px;
+    height: 40px;
+    font-size: 25px;
+    color: white;
+    background-color: #1877f2;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.login:hover{
+    background-color: #166fe5;
+}
+a{
+    width: 300px;
+    margin: auto;
+    color: #337ef3;
+    text-decoration: none;
+    display: block;
+    padding-top: 15px;
+    font-weight: 100;
+}
+hr{
+    color:#dfe2e5;
+}
+a:hover{
+    text-decoration:underline;
+}
+.new{
+    width: 200px;
+    height: 50px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.new:hover{
+    background-color:#36a420;
+    cursor: pointer;
+}
