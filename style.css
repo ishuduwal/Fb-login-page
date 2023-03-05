@@ -46,6 +46,10 @@ form{
 .info{
     text-align: center;
 }
+.ok, .new{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 .login{
     width: 275px;
     height: 40px;
@@ -88,3 +92,4 @@ a:hover{
     background-color:#36a420;
     cursor: pointer;
 }
+
